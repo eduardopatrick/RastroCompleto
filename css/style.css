@@ -102,7 +102,7 @@ hr {
 	bottom: -1px;
 	width: 0;
 	height: 2px;
-	background: linear-gradient(to right, #FFF 0%, #ff0000 100%);
+	background: linear-gradient(to right, #FFF 0%, #e7262b 100%);
 	content: "";
 	transition: width 0.2s;
 }
@@ -122,7 +122,7 @@ hr {
 	bottom: -1px !important;
 	width: 100% !important;
 	height: 2px !important;
-	background: linear-gradient(to right, #FFF 0%, #ff0000 100%) !important;
+	background: linear-gradient(to right, #FFF 0%, #e7262b 100%) !important;
 	content: "" !important;
 	transition: width 0.2s !important;
 }
@@ -248,8 +248,8 @@ header .intro-text {
 }
 /* About Section */
 #about {
-	padding: 100px 0;
-	background-color: #ff0000 !important;
+	padding: 96px 0;
+	background-image: url("../background/BG+quemsomos.png") !important;
 }
 .contorno {
 	font-size: 8em;
@@ -313,10 +313,10 @@ header .intro-text {
 }
 /* Services Section */
 #services {
-	padding: 100px 0;
+	padding: 63px 0;
 	
 	color: #fff;
-	background-color: #ff0000 !important;
+	background-image: url("../background/BG+quemsomos+baixo.png") !important;
 }
 #services hr {
 	background-color: #fff;
@@ -363,7 +363,7 @@ header .intro-text {
 }
 #iconservice {
 	font-size: 8em;
-	color: #ff0000 !important;
+	color: #e7262b !important;
 	-webkit-text-stroke-width: 4px;
 	-webkit-text-stroke-color: #fff;
 }
@@ -371,15 +371,22 @@ header .intro-text {
 	font-size: 8em;
 	color: #fff !important;
 	-webkit-text-stroke-width: 4px;
-	-webkit-text-stroke-color: #ff0000;
+	-webkit-text-stroke-color: #e7262b;
 }
 #iconfooter {
 	font-size: 3em;
+	
+}
+a:hover {
+	text-decoration: none !important;
 }
 
 /* Portfolio Section */
-#portfolio {
-	padding: 100px 0;
+#portifolio {
+	/*padding: 100px 0;*/
+}
+#servicos {
+	background-image: url("../background/BG+3.png") !important;
 }
 #portifolio h3 {
 	font-weight: 500;
@@ -436,23 +443,23 @@ header .intro-text {
 	font-size: 8em;
 }
 #blog1 {
-	color: #ff0000;
+	color: #e7262b;
 }
 #blog2 {
 	color: #fff !important;
 	-webkit-text-stroke-width: 2px;
-	-webkit-text-stroke-color: #ff0000;
+	-webkit-text-stroke-color: #e7262b;
 }
 #parceirosh1 {
 	font-size: 7em !important;
 }
 .datablog {
-	color: #ff0000 !important;
+	color: #e7262b !important;
 	text-align: right;
 }
 blockquote {
 	margin: 12em 0px 1rem !important;
-	background-color: #ff0000 !important;
+	background-color: #e7262b !important;
 	border-radius: 0 0 2em 0 !important;
 	height: 10em;
 }
@@ -466,13 +473,13 @@ blockquote p {
 	margin-top: 2em;
 }
 #imgblog {
-	height: 12em;
+	height: 11em;
 }
 
 /* Contact Section */
 #contact {
 	padding: 30px 0 60px 0;
-	background-color: #1a1a1a;
+	background-color: #3d3d3d;
 	
 }
 #contact .section-title {
@@ -482,7 +489,7 @@ blockquote p {
 	font-size: 16px;
 }
 #contact h2 {
-	color: #FF0066;
+	color: #e7262b;
 	margin-top: 10px;
 }
 #contact .section-title h2::after {
@@ -522,7 +529,7 @@ label {
 	font-weight: 400;
 	font-family: 'Open Sans', sans-serif;
 	float: left;
-	color: #FFF;
+	color: #fff;
 }
 #contact .form-control {
 	display: block;
@@ -552,6 +559,11 @@ label {
 	outline: 0;
 	-webkit-box-shadow: transparent;
 	box-shadow: transparent;
+}
+#botaoenviar {
+	background-color: #e7262b !important;
+	border-color: #fff !important;
+	box-shadow: 0px 0px .5em #fff;
 }
 
 .form-control::-webkit-input-placeholder {
@@ -616,7 +628,7 @@ color: #777;
 }
 /* Footer Section*/
 #footer {
-	background: #ff0000e1;
+	background: #e7262b;
 	padding: 30px 0;
 }
 #footer p {
@@ -633,10 +645,8 @@ color: #777;
 
 .logocontato {
 	width: 100%;
-	margin-top: 20%;
 	border-right: 2px solid #FFF;
 	border-left: 2px solid #FFF;
-	margin-left: 10px;
 }
 
 .midias i{
