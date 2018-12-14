@@ -134,10 +134,15 @@ img::-moz-selection{
 #texto1 {
     color: #000;
     /*margin-left: -8em;*/
+    text-align: left;
 }
 #texto2 {
     /*margin-left: -13.7em;*/
     color: #000;
+    text-align: left;
+}
+#texto3 {
+    text-align: left;
 }
 #textoheader {
     width: 60%;
