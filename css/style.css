@@ -510,6 +510,7 @@ blockquote p {
 }
 #contact form {
 	padding-top: 0px;
+	margin-top: 5%;
 }
 #contact .text-danger {
 	color: #cc0033;
@@ -643,10 +644,10 @@ color: #777;
 	margin-right: 0px;
 }
 
-.logocontato {
-	width: 100%;
+#logocontato {
 	border-right: 2px solid #FFF;
 	border-left: 2px solid #FFF;
+	margin-top: 20%;
 }
 
 .midias i{
@@ -661,7 +662,8 @@ color: #777;
     overflow:hidden;
     padding-bottom:56.25%;
     position:relative;
-    height:0;
+	height:0;
+	margin-top: 15%;
 }
 .mapa iframe{
     left:0;
@@ -677,61 +679,14 @@ color: #777;
 @media only screen 
 and (min-device-width : 375px) 
 and (max-device-width : 667px) { 
-	body {
-		width: 62vh !important;
-	}
-	.intro {
-		display: block;
-	}
-	#contact {
-		width: 100%;
-	}
-	#message {
-		margin: 0px 16px 0px 0px;
-		width: 355px;
-		height: 92px;
-	}
-	.logocontato {
-		
-	}
-	.textomapa {
-		line-height: 1.2em;
-		color: #FFF;
-		margin-left: 48px;
-	}
-	.mapa {
-		margin-top: 85px;
-	}
+	
 }
 
 /* iPhone 6, 7, & 8  PLUS in portrait & landscape 8*/
 @media only screen 
 and (min-device-width : 414px) 
 and (max-device-width : 736px) { 
-	.intro {
-		display: block;
-	}
-	#contact {
-		width: 100%;
-	}
-	#tela1 {
-		margin-left: 0px;
-	}
-	#message {
-		margin: 0px 16px 0px 0px;
-		width: 398px;
-		height: 92px;
-	}
-	.logocontato {
-		
-	}
-	.mapa {
-		margin-top: 85px;
-	}
-	#tela3 {
-		margin-top: 85px;
-		margin-left: 2px;
-	}
+	
 }
 
 
@@ -739,30 +694,5 @@ and (max-device-width : 736px) {
 @media only screen 
 and (min-device-width : 411px) 
 and (max-device-width : 731px) { 
-	.intro {
-		display: block;
-	}
-	#contact {
-		width: 100%;
-	}
-	#tela1 {
-		margin-left: 0px;
-	}
-	#message {
-		margin: 0px 16px 0px 0px;
-		width: 395px;
-		height: 92px;
-	}
-	.logocontato {
-		margin-top: 85px;
-		margin-left: -50px;
-		margin-right: -10px;
-	}
-	.mapa {
-		margin-top: 85px;
-	}
-	#tela3 {
-		margin-top: 85px;
-		margin-left: 3px;
-	}
+	
 }
