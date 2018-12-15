@@ -109,9 +109,13 @@ hr {
 #menu.navbar-default .navbar-nav > li > a:hover:after {
 	width: 100%;
 }
+
 #menu .navbar-nav {
 	flex-direction: inherit;
 }
+
+
+
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
 	background-color: transparent;
 }
@@ -695,4 +699,13 @@ and (max-device-width : 736px) {
 and (min-device-width : 411px) 
 and (max-device-width : 731px) { 
 	
+}
+
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 767px) { 
+	#menu .navbar-nav {
+		flex-direction: column;
+	}
 }
