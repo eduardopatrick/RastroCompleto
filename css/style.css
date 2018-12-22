@@ -276,10 +276,25 @@ header .intro-text {
 	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
 	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
 }
+
+/*Linha coisada*/
+
+.wrapper-line {
+	position: relative;
+  }
+  
+  .line-svg {
+	position: absolute;
+	width: 100%;
+	top: 150px;
+  }
+
+  
 /* About Section */
 #about {
 	padding: 96px 0;
 	background-image: url("../background/BG+quemsomos.png") !important;
+	/*background-repeat: no-repeat !important;*/
 }
 .contorno {
 	font-size: 8em;
@@ -347,6 +362,7 @@ header .intro-text {
 	
 	color: #fff;
 	background-image: url("../background/BG+quemsomos+baixo.png") !important;
+	/*background-repeat: no-repeat !important;*/
 }
 #services hr {
 	background-color: #fff;
@@ -391,11 +407,17 @@ header .intro-text {
 #services .service-desc {
 	margin-bottom: 40px;
 }
-#iconservice {
-	font-size: 8em;
-	color: #e7262b !important;
-	-webkit-text-stroke-width: 4px;
-	-webkit-text-stroke-color: #fff;
+.iconservice {
+	margin-left: -3em;
+}
+.iconservice2 {
+	margin-left: -5em;
+}
+.iconservice3 {
+	margin-left: 0em;
+}
+.iconservice4 {
+	margin-left: -4em;
 }
 #iconinverso {
 	font-size: 8em;
@@ -417,6 +439,7 @@ a:hover {
 }
 #servicos {
 	background-image: url("../background/BG+3.png") !important;
+	/*background-repeat: no-repeat !important;*/
 }
 #portifolio h3 {
 	font-weight: 500;
@@ -747,5 +770,17 @@ and (max-device-width : 731px) {
 @media (max-device-width : 767px) { 
 	#menu .navbar-nav {
 		flex-direction: column;
+	}
+	.iconservice {
+		margin-left: 0em;
+	}
+	.iconservice2 {
+		margin-left: 0em;
+	}
+	.iconservice3 {
+		margin-left: 0em;
+	}
+	.iconservice4 {
+		margin-left: 0em;
 	}
 }

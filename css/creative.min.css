@@ -157,6 +157,7 @@ img::-moz-selection{
     background-color: #e7262b;
     border-color: #e7262b;
     box-shadow: 0px 0px .5em #e7262b;
+    transition-duration: 2s;
 }
 #botaohome:hover {
     box-shadow: 0px 0px 1em #e7262b;
@@ -168,6 +169,7 @@ header.masthead{
     background-position-x: 10em !important;
     background-position:center center;
     background-size:cover;
+    /*background-repeat: no-repeat !important;*/
     
 }
 header.masthead hr{
